@@ -18,7 +18,7 @@ body {
 }
 
 hr {
-    border: solid #969696 1px;
+    border: solid rgba(150, 150, 150, 0.3) 1px;
     border-bottom: none;
     margin-top: 25px;
 }
@@ -29,6 +29,7 @@ hr {
   margin: 10% auto;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 5px 2px 100px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card-top {
