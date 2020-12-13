@@ -1,20 +1,25 @@
 a {
   text-decoration: none;
-  color: #969696;
+  color: white;
 }
 
 a:hover {
-  color: white;
+  color: #969696;
 }
 
 body {
   background-color: #19a2ae;
   background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg") ;
   background-repeat: no-repeat;
-  background-position: -400px -600px, 600px 250px;
+  background-position: /*-130% 150%, 200% -80%; */-300px -600px, 600px 300px;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 18px;
+  min-height: 100%;
+  margin: 0;
+  border: none;
   letter-spacing: 1px;
+  padding: 0;
+  text-align:center;
 }
 
 hr {
@@ -26,7 +31,7 @@ hr {
 .container {
   text-align: center;
   width: 350px;
-  margin: 10% auto;
+  margin: 100px auto 80px auto;
   background-color: white;
   border-radius: 10px;
   box-shadow: 5px 2px 100px 15px rgba(0, 0, 0, 0.1);
@@ -39,9 +44,11 @@ hr {
 }
 
 .credit {
-  text-align: center;
-  color: #969696;
+  display: block;
+  color: white;;
   font-size:10px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .grey-text {
@@ -67,7 +74,7 @@ hr {
 }
 
 .stats {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   font-weight: bold;
-  margin: 25px 20px;
 }
